@@ -1,65 +1,117 @@
 <%- include("partials/header");-%>
-<div class="main">
+<!-- <%-include("partials/footer");-%> -->
+    <div class="main">
         <div class="top-container">
             <span class="img">
-           <img src="/images/th (4).jpg"  alt="imga">
-        <!-- </div>
+                <img src="/images/th (4).jpg" alt="imga">
+                <!-- </div>
         <div class="Head"> -->
-            <h1>Monsoon Playlist:<p>Listen to your favourite music online for free</p></h1>
-            <!-- <h1>English</h1> -->
+                <h1>Monsoon Playlist:<p>Listen to your favourite music online for free</p>
+                </h1>
+                <!-- <h1>English</h1> -->
 
-            <div class="btn">
-                <button type="submit" class="play">Play</button>
-                <button type="submit" class="follow">Follow</button>
-            </div>
-        </span>
+                <div class="btn">
+                    <button type="submit" class="play">Play</button>
+                    <button type="submit" class="follow">Follow</button>
+                </div>
+            </span>
         </div>
         <div class="mid-container">
-            <div class="container-head">
-                <h1 style="font-family:sans-serif;">Good Evening</h1>
+            <div class="wish">
+                <div class="container-head">
+                    <h1 style="font-family:sans-serif;">
+                        <%= wish %>
+                    </h1>
+                </div>
             </div>
+
             <div class="row">
                 <div class="column1 column">
                     <!-- <span> -->
-                        <img src="/images/th (2).jpg" alt=""class="images">
-                        <h3>My Playlist1
-                            <i class="fa-solid fa-circle-play fa-2x"></i></h3>
+                    <img src="/images/th (2).jpg" alt="" class="images">
+                    <h3>My Playlist1
+                        <i class="fa-solid fa-circle-play fa-2x"></i>
+                    </h3>
                     <!-- </span> -->
                 </div>
                 <div class="column2 column">
-                    <img src="/images/th (1).jpg"class="images" alt="">
+                    <img src="/images/th (1).jpg" class="images" alt="">
                     <h3>#PlayList 2
-                        <i class="fa-solid fa-circle-play fa-2x"></i></h3>
+                        <i class="fa-solid fa-circle-play fa-2x"></i>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="column1 column">
+                        <img src="/images/th (5).jpg" class="images" alt="">
+                        <h3>Romantic<i class="fa-solid fa-circle-play fa-2x"></i></h3>
+
+                    </div>
+
+                    <div class="column2 column">
+                        <img src="/images/th.jpg" class="images" alt="">
+                        <h3>#PlayList 4
+                            <i class="fa-solid fa-circle-play fa-2x"></i>
+                        </h3>
+                    </div>
+                </div>
+                <div class="top-mix">
+                    <div class="top-head">
+                        <h1>Your top mixes</h1>
+                    </div>
+                    <div class="top-mix-container">
+                        <div class="items"><img src="/images/th (9).jpg" alt="">
+                            <h3>Romantic Mix</h3>
+                            <p>Lorem ipsum, dolor sit labore.</p>
+                        </div>
+                        <div class="items"><img src="/images/th (8).jpg" alt="">
+                            <h3>Mood Mix</h3>
+                            <p>Lorem ipsum dolor, sit a. Molestias, dignissimos!</p>
+                        </div>
+                        <div class="items"><img src="/images/th (7).jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet . Fuga, non.</p>
+                        </div>
+                        <div class="items"><img src="/images/th (6).jpg" alt="">
+                            <p>Lorem ipsusitelit.</p>
+                        </div>
+                        <div class="items"><img src="/images/th (10).jpg" alt="">
+                            <p>amet consectetur adipisicing.</p>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+                <div class="top-mix">
+                    <div class="top-head">
+                        <h1>Your top mixes</h1>
+                    </div>
+                    <div class="top-mix-container">
+                        <div class="items"><img src="/images/th (9).jpg" alt="">
+                            <h3>Romantic Mix</h3>
+                            <p>Lorem ipsum, dolor sit labore.</p>
+                        </div>
+                        <div class="items"><img src="/images/th (8).jpg" alt="">
+                            <h3>Mood Mix</h3>
+                            <p>Lorem ipsum dolor, sit a. Molestias, dignissimos!</p>
+                        </div>
+                        <div class="items"><img src="/images/th (7).jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet . Fuga, non.</p>
+                        </div>
+                        <div class="items"><img src="/images/th (6).jpg" alt="">
+                            <p>Lorem ipsusitelit.</p>
+                        </div>
+                        <div class="items"><img src="/images/th (10).jpg" alt="">
+                            <p>amet consectetur adipisicing.</p>
+                        </div>
+
+                    </div>
+                <!-- </div> -->
             </div>
-            <div class="row">
-                <div class="column1 column">
-                    <img src="/images/th (5).jpg"class="images" alt="">
-                <h3>Romantic<i class="fa-solid fa-circle-play fa-2x"></i></h3>
+        <!-- </div> -->
+        <!-- </div> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./index.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
+        </body>
 
-                </div>
-
-                <div class="column2 column">
-                    <img src="/images/th.jpg" class="images"alt="">
-                <h3>#PlayList 4
-                <i class="fa-solid fa-circle-play fa-2x"></i></h3>
-                </div>
-            </div>
-            <div class="top-mix">
-                <div class="top-head">
-                    <h1>Your top mixes</h1>
-                </div>
-                <div class="top-mix-container">
-                    <div class="items"><img src="/images/th (9).jpg" alt=""><h3>Romantic Mix</h3><p>Lorem ipsum, dolor sit  labore.</p></div>
-                    <div class="items"><img src="/images/th (8).jpg" alt=""><h3>Mood Mix</h3><p>Lorem ipsum dolor, sit a. Molestias, dignissimos!</p></div>
-                    <div class="items"><img src="/images/th (7).jpg" alt=""><p>Lorem ipsum dolor sit amet . Fuga, non.</p></div>
-                    <div class="items"><img src="/images/th (6).jpg" alt=""><p>Lorem ipsusitelit.</p></div>
-                    <div class="items"><img src="/images/th (10).jpg" alt=""><p>amet consectetur adipisicing.</p></div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</body>
-</html>
+        </html>
